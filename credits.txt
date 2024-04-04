@@ -1,4 +1,0 @@
-Hero-Image: https://unsplash.com/@neom
-
-Display-Images: https://unsplash.com/@lianhao
-

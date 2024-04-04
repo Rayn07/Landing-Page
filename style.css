@@ -42,12 +42,15 @@ a {
 .hero {
 	display: flex;
 	gap: 32px;
+	justify-content: center;
 }
 
 .hero-text {
 	flex: auto;
 	color: #f9faf8;
 	font-size: 18px;
+	width: 500px;
+	text-wrap: wrap;
 }
 
 .hero-text h1 {
@@ -62,7 +65,7 @@ a {
 
 .hero img {
 	flex: auto;
-	width: 350px;
+	width: 400px;
 	border-radius: 5%;
 }
 

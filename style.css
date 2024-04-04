@@ -41,6 +41,7 @@ a {
 
 .hero {
 	display: flex;
+	gap: 32px;
 }
 
 .hero-text {
@@ -76,11 +77,16 @@ button {
 	padding: 6px 28px;
 }
 
+button:hover {
+	cursor: pointer;
+	background-color: #285db3;
+}
+
 .content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 32px 0 96px 0;
+	padding: 32px 0 64px 0;
 }
 
 .display {
@@ -125,5 +131,42 @@ button {
 	font-style: normal;
 	align-self: flex-end;
 	margin: 8px 20% 0 0;
+}
+
+.sign-up {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #3882f6;
+	border-radius: 5px;
+	margin: 64px 128px;
+	padding: 32px 64px;
+}
+
+.sign-up button {
+	border-style: solid;
+	border-color: #f9faf8;
+	padding: 8px 32px;
+}
+
+.main {
+	color: #f9faf8;
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.main~p {
+	color: #e5e7eb;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer {
+	background-color: #1f2937;
+	padding: 32px;
+	text-align: center;
+	color: #e5e7eb;
+	font-size: 14px
 }
 
